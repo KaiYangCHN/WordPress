@@ -1,0 +1,256 @@
+﻿/* 
+Theme Name: Azzurino
+Description: This is my theme.
+Version: 7.0
+Author: YangKai
+*/
+body {font-family: "宋体" Arial, Helvetica, sans-serif; font-size:12px; background:#153039;margin:0px;text-align:center;}
+a:link {text-decoration: none;color:#106E8A;}
+a:visited{text-decoration: none;color: #660066}	
+a:hover{text-decoration: none;color:#ff6600;}
+a:active{text-decoration: none;} 
+img {BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px}
+li {list-style-type:none;}
+ul{margin:0;padding: 0px;}
+.clear{font-size: 0px;clear: both;height: 0px;}
+/*流对齐*/
+.float_left { float:left;}
+.float_right { float:right;}
+.float_center { float:center;}
+/*DIV属性*/
+.w1000 { width:1000px; margin:0 auto;}
+.w1000_bg_white{ width:1000px; margin:0 auto;background:#ffffff;}
+/*通用文本样式*/
+.links_text { color:#075D7E; line-height:180%; font-weight:700; margin:10px 10px;}
+.common_text { color:#106E8A; line-height:200%;}
+.common_text a { color:#106E8A;}
+.common_text li { margin-right:10px;}
+.common_text a:hover { color:#ff6600; text-decoration:underline;}
+.common_text a:visited {color: #660066}
+.common_text ul li {float:left; margin-right:20px;font-size:14px;}
+/*通用列表样式*/
+.common_list{
+	color:#106E8A; 
+	line-height:130%;
+}
+.common_list a:hover { 
+	color:#ff6600; 
+	text-decoration:underline;
+}
+.common_list ul li {	
+	font-size:14px;
+	margin:8px;
+}
+/*头部*/
+#header{
+	float:left;
+	width:1000px;
+	height:240px;
+}
+/*圆环及下雪flash*/
+#cycle{
+	float:left;
+	margin-left:855px;
+	margin-top:-160px;
+	width:120px;
+	height:120px;
+}
+#snow{
+	float:float;
+	margin-left:530px;
+	margin-top:50px;
+	width:300px;
+	height:185px;
+}
+/*QQ邮件订阅*/
+.qqlist{
+	float:absolute;
+	margin-top:-120px;
+}
+/*搜索框*/
+#searchform{
+	float:left;
+	margin-left:842px;
+	margin-top:-20px;
+}
+/*导航栏*/
+#menubar {
+	float:left;
+	height:67px;
+	width:1000px;
+}
+.menubar_list{
+	float:left;
+	margin-left:75px;
+	width:842px;
+	height:66px;
+}
+.menubar_list li{
+	float:left; 
+	margin-left:15px;
+	width:105px;
+	height:66px;
+}
+
+/*audio*/
+.audio {
+	float:left;
+	width:100px;
+	height:100px;
+}
+/*video*/
+.video {
+	float:left;
+	width:100px;
+	height:100px;
+	margin-left:30px;
+}
+/*子页背景*/
+.diy_logo{
+	float:left;
+	margin-top:10px;
+	width:500px;
+	height:110px;
+}
+#footer{
+	float:left;
+	background:#153039;
+	width:1000px;
+	height:30px;
+}
+/*侧边栏*/
+#sidebar{
+	float:left;
+	text-align:left;
+	width:216px;
+	height:589px;
+	margin-top:10px;
+}
+/*notice*/
+.sidebar_sub_tip{
+	float:left;
+	margin-left:20px;
+	width:190px;
+	height:210px;
+}
+/*notice*/
+.sidebar_sub_service{
+	float:left;
+	margin-top:10px;
+	width:190px;
+	height:260px;
+	margin-left:20px;	
+}
+/*QQ*/
+.sidebar_sub_qq{
+	float:left;
+	margin-top:63px; 
+	margin-left:70px;
+	width:120px;
+	height:20px;
+}
+.qq_number{
+	width:150px;
+	height:44px;
+	color:#106E8A;
+	font-size:14px;
+	font-weight:bold;
+	font-family: Georgia;
+}
+/*service*/
+.menu_service { 
+	float:left;
+	color:#BB1200; 
+	line-height:40px; 
+	font-size:14px; 
+	font-weight:700;
+}
+.menu_service ul li { 
+	float:left;
+	padding-top:6px;
+	width:152px;
+	text-align:center;
+}
+.menu_service a {
+	color:#BB1200;
+}
+/*conditon*/
+#condition{
+	float:left;
+	text-align:left;
+	margin-top:10px;
+}
+/*condition_sub_service*/
+.condition_sub_service {	
+	float:left;
+	margin-left:25px;
+	width:240px;
+	height:260px;
+}
+/*友情链接*/
+#links{
+	float:left;
+	text-align:left;
+}
+.links_body{
+	float:left;
+	width:990px;
+	height:50px;
+	margin-left:3px;
+	margin-top:37px; 
+	background:#e4f2ff; 
+	border:1px solid #9FEAEF;
+}
+.links_list{
+	width:900px;
+}
+.links_list ul li{
+	margin-left:30px;
+	width:100px;
+	display:inline;
+	margin-right:30px;
+}
+/*列表和文章内容区*/
+#container{
+	float:left;
+	text-align:left;
+	border-style:solid;
+	border-color:#7ed3ff;
+	border-width:1px;
+	width:725px;
+	height:auto;
+	text-indent:24px;
+	padding-left:5px;
+	padding-right:10px;
+	margin-top:15px;
+	overflow:hidden;
+	margin-left:16px;
+	color:#106E8A;
+	font-size:14px;
+}
+#container form{
+	text-indent:0px;
+	margin-left:24px;
+}
+/*
+#container input{
+	border:1px groove black;
+}
+#container textarea{
+	border:1px solid black;
+}
+*/
+.entry{
+	width:730px;
+}
+/*文章内容*/
+.container_text{color:#106E8A; line-height:138%;-moz-user-select:none;}
+.container_text a { color:#106E8A;}
+.container_text li { margin-right:10px;}
+.container_text a:hover { color:#ff6600; text-decoration:underline;}
+.container_text a:visited {color: #660066}
+.container_text ul li {float:left; margin-right:20px;font-size:14px;}
+
+#container p{
+	margin:10px;
+}
